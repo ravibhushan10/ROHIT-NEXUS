@@ -1,0 +1,30 @@
+.first{
+background-color: aqua;
+height: 200px;
+width: 150px;
+margin: 20px;
+}
+.second{
+   
+    background-color: blanchedalmond;
+    height: 200px;
+    width: 150px;
+    margin: 20px;
+}
+
+/* how to make inline elements to block level elements and block to inline elements  = use display block  or inline */
+.third{
+    display: block;
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+}
+/* display inline-block = element hoga jo behave karge inline ki tarah but usme hieght and widht fix kar sakte hai */
+.fourth{
+    display: inline-block;
+    background-color: crimson;
+    height: 200px;
+    width: 250px;
+    margin: 20px;
+}

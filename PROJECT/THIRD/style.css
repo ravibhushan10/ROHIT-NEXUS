@@ -1,0 +1,26 @@
+/*  '*'= universal selector */
+/* here we are removing default margin of browser */
+*{
+
+    margin: 0;
+}
+.first, .third{
+    display: inline-block;
+    height: 40vh;
+    width: 25vw;
+    background-color: crimson;
+   
+
+    
+}
+.second, .fourth{
+    display: inline-block;
+    height: 40vh;
+    width: 60vw;
+    background-color: crimson;
+    margin-left: 13.5vw;
+    
+}
+.third,.fourth{
+    margin-top: 20vh;
+}

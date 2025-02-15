@@ -1,0 +1,32 @@
+.card{
+    width: 30vw;
+    height: 20vw;
+    background-color: aqua;
+    border: 5px black solid;
+    padding: 10px;
+    margin: 20px 20px 20px 35vw;
+}
+h2{
+    color: green;
+    text-align: center;
+}
+h3{
+    color: blueviolet;
+    text-align: center;
+}
+body{
+    background-color: antiquewhite;
+}
+
+/* use hover = when you are go to any box then the color is change of particular element  */
+.card:hover {
+    background-color: blueviolet;
+    color: chocolate;
+    transform: scale(1.2);
+}
+.card:hover h3{
+    color: chartreuse;
+}
+.card:hover p{
+    
+}
