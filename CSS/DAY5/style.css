@@ -1,14 +1,22 @@
 .first{
+    display: inline;
 background-color: aqua;
 height: 200px;
 width: 150px;
 margin: 20px;
+
+}
+.sixth{
+    
+background-color: aqua;
+height: 200px;
+width: 100px;
+margin: 20px;
 }
 .second{
-   
     background-color: blanchedalmond;
     height: 200px;
-    width: 150px;
+    width: 100px;
     margin: 20px;
 }
 
@@ -17,10 +25,15 @@ margin: 20px;
     display: block;
     background-color: blueviolet;
     height: 200px;
-    width: 200px;
+    width: 100px;
     margin: 50px;
 }
-/* display inline-block = element hoga jo behave karge inline ki tarah but usme hieght and widht fix kar sakte hai */
+/* display inline-block = element hoga jo behave karge inline ki tarah but usme hieght and widht fix kar sakte hai 
+
+*/
+/* it is a hybrid property display:inline- block that  
+ye to inline hi rehega but isko height and width de sakte hai  ye sare ek hi line  me align honge
+*/
 .fourth{
     display: inline-block;
     background-color: crimson;
