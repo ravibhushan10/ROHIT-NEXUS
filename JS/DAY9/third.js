@@ -11,3 +11,4 @@ const seconds=Math.floor(date3/(1000)%60);
 const milliseconds=Math.floor(date3%1000);
 
 console.log(`Olympics Countdown Time: Days:${days}  Hours:${hours}  Minutes:${minutes}  Seconds:${seconds}  Millisecons:${milliseconds}`);
+
